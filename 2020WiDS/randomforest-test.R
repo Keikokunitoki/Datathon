@@ -79,7 +79,7 @@ library(ggplot2)
 
 md.pattern(train)
 
-
+imp1 <- mice(traind , method = "cart")
 
 ##### Random Forest ###
 rf <- randomForest(
